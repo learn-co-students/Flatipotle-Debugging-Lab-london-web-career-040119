@@ -4,7 +4,8 @@ import Form from './components/Form'
 import Order from './components/Order'
 
 class App extends Component {
-  state: {
+  
+  state = {
     orders: []
   }
 
